@@ -2,7 +2,7 @@
 // Auto-genererad med Wikipedia API-bilder
 
 function img(path) {
-  return `/wiki-img${path}`;
+  return `https://upload.wikimedia.org${path}`;
 }
 
 export const categories = [
